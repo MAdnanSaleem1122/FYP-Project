@@ -34,6 +34,11 @@ export const navlinks = [
     title: "Login",
     link: "/login",
   },
+  // {
+  //   id: "Createcampaign",
+  //   title: "Create Campaign",
+  //   link: "/create-campaign",
+  // },
 ];
 
 export const categorylinks = [
@@ -120,7 +125,7 @@ export const Projectscategory = [
     title: "Marketing",
     funding: "90$",
     category: "Fashion",
-    img: Portfolio2,
+    img: Portfolio1,
   },
   {
     id: 2,

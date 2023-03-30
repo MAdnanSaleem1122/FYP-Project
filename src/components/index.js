@@ -13,6 +13,8 @@ import Projects from "./projects/Projects";
 import Sidebar from "../dashboard/Sidebar";
 import Navbar_dash from "../dashboard/Navbar_dash";
 import Dashboard from "../dashboard/Dashboard";
+import FormField from "./FormField";
+import Createcampaign from "./Createcampaign";
 export {
   Navbar,
   Herosection,
@@ -29,4 +31,6 @@ export {
   Dashboard,
   Navbar_dash,
   Sidebar,
+  FormField,
+  Createcampaign,
 };

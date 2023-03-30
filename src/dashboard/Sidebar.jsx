@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { lo,sun,dash_logo  } from '../assets';
+import { sun,dash_logo  } from '../assets';
 import { navlink } from './constant';
 const Icon = ({ styles, name, imgUrl, IsActive, disabled, handleClick }) => (
   <div className={`w-[48px] h-[48px] rounded-[10px] ${IsActive&& IsActive === name && 'bg-[#2c2f32]'} flex justify-center items-center ${!disabled && 'cursor-pointer'} ${styles}`} onClick={handleClick}>

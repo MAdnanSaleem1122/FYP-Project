@@ -14,6 +14,7 @@ import {
   Projects,
   Dashboard,
 } from "./components";
+import Createcampaign from "./components/Createcampaign";
 import Cordion from "./components/Cordion";
 
 const App = () => {
@@ -48,6 +49,15 @@ const App = () => {
                 <Herosection />
                 <Loginsign />
                 <Footer />
+              </>
+            }
+          />
+          {/* <Route path="/create-campaign" element={<Createcampaign />}></Route> */}
+          <Route
+            path="/Create-Campaign"
+            element={
+              <>
+                <Dashboard />
               </>
             }
           />
